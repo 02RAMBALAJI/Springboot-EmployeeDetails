@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="ajax.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <title>StudentManagementSystem form</title>
+
+</head>
+<body>
+    <form>        
+        <div>
+            <label for="stuname" name="stuname">Student name:</label>
+            <input type="text" id="stuname">
+        </div>
+
+        <div>
+            <label for="stuSection" name="stuSection">Student Section:</label>
+            <input type="text" id="stuSection">
+        </div>
+
+        <div>
+            <label for="stuDepartment" name="stuDepartment">Student Department:</label>
+            <input type="text" id="stuDepartment">  
+        </div>
+
+        <button type="submit" onclick="addStudent()">submit</button>
+        <br>
+        <button type="submit" onclick="postStudent()">POST</button>
+    </form>
+</body>
+</html>
